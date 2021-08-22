@@ -16,9 +16,9 @@ class EightBall: ObservableObject  {
     
     var shakeWithText: String? {
         didSet {
-            shake(withQueryText: shakeWithText ?? "") { abstract in
+            shake(withQueryText: shakeWithText ?? "") { resultText in
                 DispatchQueue.main.async {
-                    self.abstract = abstract
+                    self.abstract = resultText
                 }
             }
         }
@@ -37,10 +37,6 @@ class EightBall: ObservableObject  {
             }
         }
         task.resume()
-        
-        if abstract != nil {
-            return
-        }
         
         let backupTask = URLSession.shared.unknownAnswerTask(with: url) { unknownAnswer, response, error in
             if let unknownAnswer = unknownAnswer {

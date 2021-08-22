@@ -16,13 +16,11 @@ struct ContentView: View {
             Text("Eight Ball")
                 .font(.title)
             TextField("What would you like to know more about?", text: $queryText, onEditingChanged: { didChange in
-                // No action
             }, onCommit: {
                 eightBall.shakeWithText = queryText
             })
-            .autocapitalization(.none)
             .disableAutocorrection(true)
-            .border(Color(UIColor.separator))
+            .border(Color.gray)
             .multilineTextAlignment(.center)
             Button("Go") {
                 eightBall.shakeWithText = queryText
