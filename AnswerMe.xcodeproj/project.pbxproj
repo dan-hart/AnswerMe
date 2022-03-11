@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		522B792D27DBF3AB007A435D /* SwifterSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 522B792C27DBF3AB007A435D /* SwifterSwift */; };
 		5230F1BB26D1B9CE00AD2EFD /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5230F1BA26D1B9CE00AD2EFD /* Tests_iOS.swift */; };
 		5230F1C626D1B9CE00AD2EFD /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5230F1C526D1B9CE00AD2EFD /* Tests_macOS.swift */; };
 		5230F1C826D1B9CE00AD2EFD /* AnswerMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5230F19F26D1B9CD00AD2EFD /* AnswerMeApp.swift */; };
@@ -128,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				522B792D27DBF3AB007A435D /* SwifterSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +289,9 @@
 			dependencies = (
 			);
 			name = "AnswerMe (iOS)";
+			packageProductDependencies = (
+				522B792C27DBF3AB007A435D /* SwifterSwift */,
+			);
 			productName = "AnswerMe (iOS)";
 			productReference = 5230F1A626D1B9CE00AD2EFD /* AnswerMe.app */;
 			productType = "com.apple.product-type.application";
@@ -378,6 +383,9 @@
 				Base,
 			);
 			mainGroup = 5230F19926D1B9CD00AD2EFD;
+			packageReferences = (
+				522B792B27DBF3AB007A435D /* XCRemoteSwiftPackageReference "SwifterSwift" */,
+			);
 			productRefGroup = 5230F1A726D1B9CE00AD2EFD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -864,6 +872,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		522B792B27DBF3AB007A435D /* XCRemoteSwiftPackageReference "SwifterSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwifterSwift/SwifterSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		522B792C27DBF3AB007A435D /* SwifterSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 522B792B27DBF3AB007A435D /* XCRemoteSwiftPackageReference "SwifterSwift" */;
+			productName = SwifterSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5230F19A26D1B9CD00AD2EFD /* Project object */;
 }

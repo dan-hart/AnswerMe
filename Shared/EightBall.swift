@@ -7,6 +7,7 @@
 
 import Foundation
 import Combine
+import SwifterSwift
 
 class EightBall: ObservableObject  {
     let baseURL = "https://api.duckduckgo.com/?q="
@@ -30,7 +31,7 @@ class EightBall: ObservableObject  {
     func shake(withQueryText: String, then handler: @escaping (String?) -> Void) {
         abstract = nil
         
-        guard let url = URL(string: "\(baseURL)\(withQueryText.replacingOccurrences(of: " ", with: "%20"))\(queryParameters)") else { return handler("Error with question") }
+        guard let url = URL(string: "\(baseURL)\(withQueryText.urlEncoded)\(queryParameters)") else { return handler("Error with question") }
         let task = URLSession.shared.answerTask(with: url) { answer, response, error in
             if let answer = answer {
                 return handler(answer.abstract)
