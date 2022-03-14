@@ -6,30 +6,51 @@
 //
 
 import SwiftUI
+import DDGInstantAnswer
 
 struct ContentView: View {
-    @ObservedObject var eightBall = EightBall()
     @State var queryText: String = ""
+    @State var answer: Answer?
+    @State var isShowingAnswerView: Bool = false
     
     var body: some View {
-        VStack(alignment: .center) {
-            Text("Eight Ball")
-                .font(.title)
-            TextField("What would you like to know more about?", text: $queryText, onEditingChanged: { didChange in
-            }, onCommit: {
-                eightBall.shakeWithText = queryText
-            })
-            .disableAutocorrection(true)
-            .border(Color.gray)
-            .multilineTextAlignment(.center)
-            Button("Go") {
-                eightBall.shakeWithText = queryText
+        NavigationView {
+            VStack {
+                TextField("What would you like to know more about?", text: $queryText, onEditingChanged: { didChange in
+                }, onCommit: {
+                    go(queryText)
+                })
+                .disableAutocorrection(true)
+                .padding()
+                .multilineTextAlignment(.center)
+                
+                Button("Search") {
+                    go(queryText)
+                }
+                Spacer()
+                
+                NavigationLink(isActive: $isShowingAnswerView) {
+                    if let answer = answer {
+                        AnswerView(answer: answer)
+                    }
+                } label: {
+                    Text("Answer View")
+                        .hidden()
+                }
             }
-            Spacer()
-            Text(eightBall.abstract ?? "")
-            Spacer()
+            
+            .navigationTitle("AnswerMe")
         }
-        .padding()
+    }
+    
+    func go(_ text: String) {
+        Task {
+            if let answer = try? await DDGInstantAnswer.query(text) {
+                self.answer = answer
+                self.isShowingAnswerView = true
+            }
+            
+        }
     }
 }
 
