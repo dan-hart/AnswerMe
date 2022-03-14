@@ -20,7 +20,7 @@ struct AnswerView: View {
                                content: { image in
                         image.resizable()
                             .aspectRatio(contentMode: .fit)
-                            .frame(maxWidth: UIScreen.main.bounds.width, maxHeight: UIScreen.main.bounds.height)
+                            .frame(maxWidth: 500, maxHeight: 500)
                     },
                                placeholder: {
                         Rectangle()

@@ -34,9 +34,10 @@ struct ContentView: View {
                         AnswerView(answer: answer)
                     }
                 } label: {
-                    Text("Answer View")
-                        .hidden()
+                    Text("Show Results")
+                        .disabled(answer == nil)
                 }
+                Spacer()
             }
             
             .navigationTitle("AnswerMe")
