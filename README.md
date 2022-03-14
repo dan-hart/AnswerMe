@@ -4,5 +4,5 @@
 
 iOS & macOS Proof of concept for the DuckDuckGo Instant Answer API (https://duckduckgo.com/api)
 
-<img width="564" alt="Screen Shot 2021-08-21 at 7 03 08 PM" src="https://user-images.githubusercontent.com/13913605/130337808-eff930ae-61db-4e1b-924b-c3b108017d48.png">
-<img width="573" alt="Screen Shot 2021-08-21 at 7 05 23 PM" src="https://user-images.githubusercontent.com/13913605/130337809-47a5275f-1a22-474a-be82-58f5609bd54b.png">
+<img width="573" alt="Screen Shot 2022-03-13 at 10 00 53 PM" src="https://user-images.githubusercontent.com/13913605/158092128-bbce2f66-09d3-4cf3-b74a-7278c4d2edbb.png">
+<img width="483" alt="Screen Shot 2022-03-13 at 9 54 35 PM" src="https://user-images.githubusercontent.com/13913605/158092130-f6d8da29-73ef-419e-a08e-372ce12443bc.png">
