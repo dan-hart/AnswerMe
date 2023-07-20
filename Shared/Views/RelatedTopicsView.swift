@@ -44,14 +44,14 @@ struct RelatedTopicsView: View {
 }
 
 struct RelatedTopicsView_Previews: PreviewProvider {
-    @BundleFile(name: "ElonMusk", type: "json", decoder: { data in
+    @BundleFile(name: "NewYorkCity", type: "json", decoder: { data in
         Answer(from: data)
     })
-    static var elonMusk: Answer?
+    static var newYorkCity: Answer?
     
     static var previews: some View {
         NavigationView {
-            RelatedTopicsView(answer: .constant(elonMusk!))
+            RelatedTopicsView(answer: .constant(newYorkCity!))
         }
     }
 }

@@ -20,10 +20,10 @@
 		526DBC5127DEC8CC0016B534 /* AnswerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526DBC5027DEC8CC0016B534 /* AnswerView.swift */; };
 		526DBC5227DEC8CC0016B534 /* AnswerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526DBC5027DEC8CC0016B534 /* AnswerView.swift */; };
 		526DBC5527DEC9820016B534 /* DDGInstantAnswer in Frameworks */ = {isa = PBXBuildFile; productRef = 526DBC5427DEC9820016B534 /* DDGInstantAnswer */; };
-		526DBC5727DECB0C0016B534 /* ElonMusk.json in Resources */ = {isa = PBXBuildFile; fileRef = 526DBC5627DECB0C0016B534 /* ElonMusk.json */; };
-		526DBC5827DECB0C0016B534 /* ElonMusk.json in Resources */ = {isa = PBXBuildFile; fileRef = 526DBC5627DECB0C0016B534 /* ElonMusk.json */; };
-		526DBC5927DECB0C0016B534 /* ElonMusk.json in Resources */ = {isa = PBXBuildFile; fileRef = 526DBC5627DECB0C0016B534 /* ElonMusk.json */; };
-		526DBC5A27DECB0C0016B534 /* ElonMusk.json in Resources */ = {isa = PBXBuildFile; fileRef = 526DBC5627DECB0C0016B534 /* ElonMusk.json */; };
+		526DBC5727DECB0C0016B534 /* NewYorkCity.json in Resources */ = {isa = PBXBuildFile; fileRef = 526DBC5627DECB0C0016B534 /* NewYorkCity.json */; };
+		526DBC5827DECB0C0016B534 /* NewYorkCity.json in Resources */ = {isa = PBXBuildFile; fileRef = 526DBC5627DECB0C0016B534 /* NewYorkCity.json */; };
+		526DBC5927DECB0C0016B534 /* NewYorkCity.json in Resources */ = {isa = PBXBuildFile; fileRef = 526DBC5627DECB0C0016B534 /* NewYorkCity.json */; };
+		526DBC5A27DECB0C0016B534 /* NewYorkCity.json in Resources */ = {isa = PBXBuildFile; fileRef = 526DBC5627DECB0C0016B534 /* NewYorkCity.json */; };
 		526DBC5D27DECBC90016B534 /* BundleFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526DBC5C27DECBC90016B534 /* BundleFile.swift */; };
 		526DBC5E27DECBC90016B534 /* BundleFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526DBC5C27DECBC90016B534 /* BundleFile.swift */; };
 		526DBC5F27DECBC90016B534 /* BundleFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526DBC5C27DECBC90016B534 /* BundleFile.swift */; };
@@ -67,7 +67,7 @@
 		5230F1C526D1B9CE00AD2EFD /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		5230F1C726D1B9CE00AD2EFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		526DBC5027DEC8CC0016B534 /* AnswerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerView.swift; sourceTree = "<group>"; };
-		526DBC5627DECB0C0016B534 /* ElonMusk.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ElonMusk.json; sourceTree = "<group>"; };
+		526DBC5627DECB0C0016B534 /* NewYorkCity.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = NewYorkCity.json; sourceTree = "<group>"; };
 		526DBC5C27DECBC90016B534 /* BundleFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleFile.swift; sourceTree = "<group>"; };
 		526DBC6127DECEF50016B534 /* RelatedTopicsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelatedTopicsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -124,7 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				526DBC5B27DECBB20016B534 /* PropertyWrappers */,
-				526DBC5627DECB0C0016B534 /* ElonMusk.json */,
+				526DBC5627DECB0C0016B534 /* NewYorkCity.json */,
 				526DBC4F27DEC8BC0016B534 /* Views */,
 				5230F19F26D1B9CD00AD2EFD /* AnswerMeApp.swift */,
 				5230F1A026D1B9CD00AD2EFD /* ContentView.swift */,
@@ -339,7 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5230F1CC26D1B9CE00AD2EFD /* Assets.xcassets in Resources */,
-				526DBC5727DECB0C0016B534 /* ElonMusk.json in Resources */,
+				526DBC5727DECB0C0016B534 /* NewYorkCity.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,7 +348,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5230F1CD26D1B9CE00AD2EFD /* Assets.xcassets in Resources */,
-				526DBC5827DECB0C0016B534 /* ElonMusk.json in Resources */,
+				526DBC5827DECB0C0016B534 /* NewYorkCity.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,7 +356,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				526DBC5927DECB0C0016B534 /* ElonMusk.json in Resources */,
+				526DBC5927DECB0C0016B534 /* NewYorkCity.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +364,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				526DBC5A27DECB0C0016B534 /* ElonMusk.json in Resources */,
+				526DBC5A27DECB0C0016B534 /* NewYorkCity.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

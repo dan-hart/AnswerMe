@@ -1,0 +1,490 @@
+{
+    "Abstract" : "New York, often called New York City or NYC, is the most populous city in the United States. With a 2020 population of 8,804,190 distributed over 300.46 square miles, New York City is the most densely populated major city in the United States. The city is more than twice as populous as Los Angeles, the nation's second-largest city, and has a larger population than 38 of the nation's 50 states. New York City is located at the southern tip of New York state. The city is the geographical and demographic center of both the Northeast megalopolis and the New York metropolitan area, the largest metropolitan area in the U.S. by both population and urban area. With over 20.1 million people in its metropolitan statistical area and 23.5 million in its combined statistical area as of 2020, New York City is one of the world's most populous megacities.",
+    "AbstractSource" : "Wikipedia",
+    "AbstractText" : "New York, often called New York City or NYC, is the most populous city in the United States. With a 2020 population of 8,804,190 distributed over 300.46 square miles, New York City is the most densely populated major city in the United States. The city is more than twice as populous as Los Angeles, the nation's second-largest city, and has a larger population than 38 of the nation's 50 states. New York City is located at the southern tip of New York state. The city is the geographical and demographic center of both the Northeast megalopolis and the New York metropolitan area, the largest metropolitan area in the U.S. by both population and urban area. With over 20.1 million people in its metropolitan statistical area and 23.5 million in its combined statistical area as of 2020, New York City is one of the world's most populous megacities.",
+    "AbstractURL" : "https://en.wikipedia.org/wiki/New_York_City",
+    "Answer" : "",
+    "AnswerType" : "",
+    "Definition" : "",
+    "DefinitionSource" : "",
+    "DefinitionURL" : "",
+    "Entity" : "location",
+    "Heading" : "New York City",
+    "Image" : "/i/d0a8725a.jpg",
+    "ImageHeight" : 270,
+    "ImageIsLogo" : 0,
+    "ImageWidth" : 495,
+    "Infobox" : {
+        "content" : [
+            {
+                "data_type" : "string",
+                "label" : "Country",
+                "value" : "United States",
+                "wiki_order" : 0
+            },
+            {
+                "data_type" : "string",
+                "label" : "State",
+                "value" : "New York",
+                "wiki_order" : 1
+            },
+            {
+                "data_type" : "string",
+                "label" : "Region",
+                "value" : "Mid-Atlantic",
+                "wiki_order" : 2
+            },
+            {
+                "data_type" : "string",
+                "label" : "Constituent counties (boroughs)",
+                "value" : "Bronx (The Bronx), Kings (Brooklyn), New York (Manhattan), Queens (Queens), Richmond (Staten Island)",
+                "wiki_order" : 3
+            },
+            {
+                "data_type" : "string",
+                "label" : "Historic colonies",
+                "value" : "New Netherland, Province of New York",
+                "wiki_order" : 4
+            },
+            {
+                "data_type" : "string",
+                "label" : "Settled",
+                "value" : "1624",
+                "wiki_order" : 5
+            },
+            {
+                "data_type" : "string",
+                "label" : "Consolidated",
+                "value" : "1898",
+                "wiki_order" : 6
+            },
+            {
+                "data_type" : "string",
+                "label" : "Named for",
+                "value" : "James, Duke of York",
+                "wiki_order" : 7
+            },
+            {
+                "data_type" : "string",
+                "label" : "\u2022 Type",
+                "value" : "Strong mayor\u2013council",
+                "wiki_order" : 8
+            },
+            {
+                "data_type" : "string",
+                "label" : "\u2022 Body",
+                "value" : "New York City Council",
+                "wiki_order" : 9
+            },
+            {
+                "data_type" : "string",
+                "label" : "\u2022 Mayor",
+                "value" : "Eric Adams (D)",
+                "wiki_order" : 10
+            },
+            {
+                "data_type" : "string",
+                "label" : "\u2022 Total",
+                "value" : "8,804,190",
+                "wiki_order" : 11
+            },
+            {
+                "data_type" : "string",
+                "label" : "\u2022 Estimate (July 2021)",
+                "value" : "8,467,513",
+                "wiki_order" : 12
+            },
+            {
+                "data_type" : "string",
+                "label" : "\u2022 Rank",
+                "value" : "1st in the United States, 1st in New York State",
+                "wiki_order" : 13
+            },
+            {
+                "data_type" : "string",
+                "label" : "\u2022 Urban",
+                "value" : "19,426,449",
+                "wiki_order" : 14
+            },
+            {
+                "data_type" : "string",
+                "label" : "\u2022 Metro",
+                "value" : "20,140,470",
+                "wiki_order" : 15
+            },
+            {
+                "data_type" : "string",
+                "label" : "Demonym(s)",
+                "value" : "New Yorker",
+                "wiki_order" : 16
+            },
+            {
+                "data_type" : "string",
+                "label" : "Time zone",
+                "value" : "EST (UTC\u221205:00)",
+                "wiki_order" : 17
+            },
+            {
+                "data_type" : "string",
+                "label" : "\u2022 Summer (DST)",
+                "value" : "EDT (UTC\u221204:00)",
+                "wiki_order" : 18
+            },
+            {
+                "data_type" : "string",
+                "label" : "ZIP Codes",
+                "value" : "100xx\u2013104xx, 11004\u201305, 111xx\u2013114xx, 116xx",
+                "wiki_order" : 19
+            },
+            {
+                "data_type" : "string",
+                "label" : "FIPS code",
+                "value" : "36-51000",
+                "wiki_order" : 20
+            },
+            {
+                "data_type" : "string",
+                "label" : "GNIS feature ID",
+                "value" : "975772",
+                "wiki_order" : 21
+            },
+            {
+                "data_type" : "string",
+                "label" : "GDP (City, 2021)",
+                "value" : "$886 billion (1st)",
+                "wiki_order" : 22
+            },
+            {
+                "data_type" : "string",
+                "label" : "GMP (Metro, 2021)",
+                "value" : "$2.0 trillion (1st)",
+                "wiki_order" : 23
+            },
+            {
+                "data_type" : "string",
+                "label" : "Largest borough by area",
+                "value" : "Queens (109 sq mi (282.31 km\u00b2))",
+                "wiki_order" : 24
+            },
+            {
+                "data_type" : "string",
+                "label" : "Largest borough by population",
+                "value" : "Brooklyn (2020 Census 2,736,074)",
+                "wiki_order" : 25
+            },
+            {
+                "data_type" : "string",
+                "label" : "Largest borough by GDP (2021)",
+                "value" : "Manhattan ($651.6 billion)",
+                "wiki_order" : 26
+            },
+            {
+                "data_type" : "coordinates",
+                "label" : "Coordinates",
+                "value" : {
+                    "altitude" : null,
+                    "globe" : "http://www.wikidata.org/entity/Q2",
+                    "latitude" : 40.7,
+                    "longitude" : -74,
+                    "precision" : 0.118490251823303
+                },
+                "wiki_order" : "205"
+            },
+            {
+                "data_type" : "area",
+                "label" : "Area",
+                "value" : {
+                    "amount" : "+1213.369839",
+                    "unit" : "http://www.wikidata.org/entity/Q712226"
+                },
+                "wiki_order" : "206"
+            },
+            {
+                "data_type" : "instance",
+                "label" : "Instance of",
+                "value" : {
+                    "entity-type" : "item",
+                    "id" : "Q208511",
+                    "numeric-id" : 208511
+                },
+                "wiki_order" : "207"
+            },
+            {
+                "data_type" : "instance_2",
+                "label" : "Instance of",
+                "value" : {
+                    "entity-type" : "item",
+                    "id" : "Q2264924",
+                    "numeric-id" : 2264924
+                },
+                "wiki_order" : "207"
+            },
+            {
+                "data_type" : "instance_3",
+                "label" : "Instance of",
+                "value" : {
+                    "entity-type" : "item",
+                    "id" : "Q1093829",
+                    "numeric-id" : 1093829
+                },
+                "wiki_order" : "207"
+            },
+            {
+                "data_type" : "instance_4",
+                "label" : "Instance of",
+                "value" : {
+                    "entity-type" : "item",
+                    "id" : "Q515",
+                    "numeric-id" : 515
+                },
+                "wiki_order" : "207"
+            },
+            {
+                "data_type" : "instance_5",
+                "label" : "Instance of",
+                "value" : {
+                    "entity-type" : "item",
+                    "id" : "Q1549591",
+                    "numeric-id" : 1549591
+                },
+                "wiki_order" : "207"
+            },
+            {
+                "data_type" : "instance_6",
+                "label" : "Instance of",
+                "value" : {
+                    "entity-type" : "item",
+                    "id" : "Q51929311",
+                    "numeric-id" : 51929311
+                },
+                "wiki_order" : "207"
+            },
+            {
+                "data_type" : "instance_7",
+                "label" : "Instance of",
+                "value" : {
+                    "entity-type" : "item",
+                    "id" : "Q15063611",
+                    "numeric-id" : 15063611
+                },
+                "wiki_order" : "207"
+            },
+            {
+                "data_type" : "instance_8",
+                "label" : "Instance of",
+                "value" : {
+                    "entity-type" : "item",
+                    "id" : "Q1637706",
+                    "numeric-id" : 1637706
+                },
+                "wiki_order" : "207"
+            },
+            {
+                "data_type" : "instance_9",
+                "label" : "Instance of",
+                "value" : {
+                    "entity-type" : "item",
+                    "id" : "Q200250",
+                    "numeric-id" : 200250
+                },
+                "wiki_order" : "207"
+            },
+            {
+                "data_type" : "instance_10",
+                "label" : "Instance of",
+                "value" : {
+                    "entity-type" : "item",
+                    "id" : "Q174844",
+                    "numeric-id" : 174844
+                },
+                "wiki_order" : "207"
+            },
+            {
+                "data_type" : "official_website",
+                "label" : "Official Website",
+                "value" : "https://nyc.gov",
+                "wiki_order" : "208"
+            },
+            {
+                "data_type" : "wiki_maps_trigger",
+                "value" : "/local.js?&ha=1&lla=-74,40.7:100&heading=New%20York%20City&q=New%20York%20City",
+                "wiki_order" : 999
+            }
+        ],
+        "meta" : [
+            {
+                "data_type" : "string",
+                "label" : "article_title",
+                "value" : "New York City"
+            },
+            {
+                "data_type" : "string",
+                "label" : "template_name",
+                "value" : "infobox settlement"
+            }
+        ]
+    },
+    "Redirect" : "",
+    "RelatedTopics" : [
+        {
+            "FirstURL" : "https://duckduckgo.com/c/New_York_City",
+            "Icon" : {
+                "Height" : "",
+                "URL" : "",
+                "Width" : ""
+            },
+            "Result" : "<a href=\"https://duckduckgo.com/c/New_York_City\">New York City Category</a>",
+            "Text" : "New York City Category"
+        },
+        {
+            "FirstURL" : "https://duckduckgo.com/Outline_of_New_York_City",
+            "Icon" : {
+                "Height" : "",
+                "URL" : "",
+                "Width" : ""
+            },
+            "Result" : "<a href=\"https://duckduckgo.com/Outline_of_New_York_City\">Outline of New York City</a> - The following outline is provided as an overview of and topical guide to New York City: New York City \u2013 largest city in the state of New York and most populous city in the United States.",
+            "Text" : "Outline of New York City - The following outline is provided as an overview of and topical guide to New York City: New York City \u2013 largest city in the state of New York and most populous city in the United States."
+        },
+        {
+            "FirstURL" : "https://duckduckgo.com/Index_of_New_York_City-related_articles",
+            "Icon" : {
+                "Height" : "",
+                "URL" : "",
+                "Width" : ""
+            },
+            "Result" : "<a href=\"https://duckduckgo.com/Index_of_New_York_City-related_articles\">Index of New York City-related articles</a> - The following is an alphabetical list of articles related to New York City.",
+            "Text" : "Index of New York City-related articles - The following is an alphabetical list of articles related to New York City."
+        },
+        {
+            "FirstURL" : "https://duckduckgo.com/c/Former_capitals_of_the_United_States",
+            "Icon" : {
+                "Height" : "",
+                "URL" : "",
+                "Width" : ""
+            },
+            "Result" : "<a href=\"https://duckduckgo.com/c/Former_capitals_of_the_United_States\">Former capitals of the United States</a>",
+            "Text" : "Former capitals of the United States"
+        },
+        {
+            "FirstURL" : "https://duckduckgo.com/c/Cities_in_the_New_York_metropolitan_area",
+            "Icon" : {
+                "Height" : "",
+                "URL" : "",
+                "Width" : ""
+            },
+            "Result" : "<a href=\"https://duckduckgo.com/c/Cities_in_the_New_York_metropolitan_area\">Cities in the New York metropolitan area</a>",
+            "Text" : "Cities in the New York metropolitan area"
+        },
+        {
+            "FirstURL" : "https://duckduckgo.com/c/Establishments_in_New_Netherland",
+            "Icon" : {
+                "Height" : "",
+                "URL" : "",
+                "Width" : ""
+            },
+            "Result" : "<a href=\"https://duckduckgo.com/c/Establishments_in_New_Netherland\">Establishments in New Netherland</a>",
+            "Text" : "Establishments in New Netherland"
+        },
+        {
+            "FirstURL" : "https://duckduckgo.com/c/Port_cities_and_towns_of_the_United_States_Atlantic_coast",
+            "Icon" : {
+                "Height" : "",
+                "URL" : "",
+                "Width" : ""
+            },
+            "Result" : "<a href=\"https://duckduckgo.com/c/Port_cities_and_towns_of_the_United_States_Atlantic_coast\">Port cities and towns of the United States Atlantic coast</a>",
+            "Text" : "Port cities and towns of the United States Atlantic coast"
+        },
+        {
+            "FirstURL" : "https://duckduckgo.com/c/Former_state_capitals_in_the_United_States",
+            "Icon" : {
+                "Height" : "",
+                "URL" : "",
+                "Width" : ""
+            },
+            "Result" : "<a href=\"https://duckduckgo.com/c/Former_state_capitals_in_the_United_States\">Former state capitals in the United States</a>",
+            "Text" : "Former state capitals in the United States"
+        }
+    ],
+    "Results" : [
+        {
+            "FirstURL" : "https://www.nycgo.com/",
+            "Icon" : {
+                "Height" : 16,
+                "URL" : "/i/nycgo.com.ico",
+                "Width" : 16
+            },
+            "Result" : "<a href=\"https://www.nycgo.com/\">Official site</a><a href=\"https://www.nycgo.com/\"></a>",
+            "Text" : "Official site"
+        },
+        {
+            "FirstURL" : "https://nyc.gov",
+            "Icon" : {
+                "Height" : 16,
+                "URL" : "/i/nyc.gov.ico",
+                "Width" : 16
+            },
+            "Result" : "<a href=\"https://nyc.gov\">Official site</a><a href=\"https://nyc.gov\"> - New York City</a>",
+            "Text" : "Official site - New York City"
+        }
+    ],
+    "Type" : "A",
+    "meta" : {
+        "attribution" : null,
+        "blockgroup" : null,
+        "created_date" : null,
+        "description" : "Wikipedia",
+        "designer" : null,
+        "dev_date" : null,
+        "dev_milestone" : "live",
+        "developer" : [
+            {
+                "name" : "DDG Team",
+                "type" : "ddg",
+                "url" : "http://www.duckduckhack.com"
+            }
+        ],
+        "example_query" : "nikola tesla",
+        "id" : "wikipedia_fathead",
+        "is_stackexchange" : null,
+        "js_callback_name" : "wikipedia",
+        "live_date" : null,
+        "maintainer" : {
+            "github" : "duckduckgo"
+        },
+        "name" : "Wikipedia",
+        "perl_module" : "DDG::Fathead::Wikipedia",
+        "producer" : null,
+        "production_state" : "online",
+        "repo" : "fathead",
+        "signal_from" : "wikipedia_fathead",
+        "src_domain" : "en.wikipedia.org",
+        "src_id" : 1,
+        "src_name" : "Wikipedia",
+        "src_options" : {
+            "directory" : "",
+            "is_fanon" : 0,
+            "is_mediawiki" : 1,
+            "is_wikipedia" : 1,
+            "language" : "en",
+            "min_abstract_length" : "20",
+            "skip_abstract" : 0,
+            "skip_abstract_paren" : 0,
+            "skip_end" : "0",
+            "skip_icon" : 0,
+            "skip_image_name" : 0,
+            "skip_qr" : "",
+            "source_skip" : "",
+            "src_info" : ""
+        },
+        "src_url" : null,
+        "status" : "live",
+        "tab" : "About",
+        "topic" : [
+            "productivity"
+        ],
+        "unsafe" : 0
+    }
+}
+

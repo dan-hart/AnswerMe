@@ -12,6 +12,8 @@ struct ContentView: View {
     @State var queryText: String = ""
     @State var answer: Answer?
     @State var isShowingAnswerView: Bool = false
+    @State var isShowingNoResults = false
+    @State var errorText = ""
     
     var body: some View {
         NavigationView {
@@ -27,6 +29,22 @@ struct ContentView: View {
                 Button("Search") {
                     go(queryText)
                 }
+                
+                Spacer()
+                
+                if isShowingNoResults {
+                    VStack {
+                        Label("No Results", systemImage: "questionmark.circle")
+                            .font(.title)
+                            .foregroundColor(.secondary)
+                            .padding()
+                        Text(errorText)
+                            .multilineTextAlignment(.center)
+                            .foregroundColor(.secondary)
+                            .padding()
+                    }
+                }
+                
                 Spacer()
                 
                 NavigationLink(isActive: $isShowingAnswerView) {
@@ -36,8 +54,15 @@ struct ContentView: View {
                 } label: {
                     Text("Show Results")
                         .disabled(answer == nil)
+                        .hidden()
                 }
+                
                 Spacer()
+                
+                Label("Powered by DuckDuckGo", systemImage: "magnifyingglass")
+                    .font(.footnote)
+                    .foregroundColor(.secondary)
+                    .padding()
             }
             
             .navigationTitle("AnswerMe")
@@ -46,11 +71,13 @@ struct ContentView: View {
     
     func go(_ text: String) {
         Task {
-            if let answer = try? await DDGInstantAnswer.query(text) {
-                self.answer = answer
+            do {
+                self.answer = try await DDGInstantAnswer.query(text)
                 self.isShowingAnswerView = true
+            } catch {
+                errorText = "\(error)"
+                isShowingNoResults = true
             }
-            
         }
     }
 }
