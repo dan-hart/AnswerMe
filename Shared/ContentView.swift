@@ -16,7 +16,7 @@ struct ContentView: View {
     @State var errorText = ""
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             VStack {
                 TextField("What would you like to know more about?", text: $queryText, onEditingChanged: { didChange in
                 }, onCommit: {
@@ -47,14 +47,13 @@ struct ContentView: View {
                 
                 Spacer()
                 
-                NavigationLink(isActive: $isShowingAnswerView) {
+                NavigationLink {
                     if let answer = answer {
-                        AnswerView(answer: answer)
+                        UpdatedAnswerView(data: answer)
                     }
                 } label: {
                     Text("Show Results")
                         .disabled(answer == nil)
-                        .hidden()
                 }
                 
                 Spacer()

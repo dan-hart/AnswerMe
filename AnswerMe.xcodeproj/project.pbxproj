@@ -32,6 +32,9 @@
 		526DBC6327DECEF50016B534 /* RelatedTopicsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526DBC6127DECEF50016B534 /* RelatedTopicsView.swift */; };
 		526DBC6427DECEF50016B534 /* RelatedTopicsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526DBC6127DECEF50016B534 /* RelatedTopicsView.swift */; };
 		526DBC6527DECEF50016B534 /* RelatedTopicsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526DBC6127DECEF50016B534 /* RelatedTopicsView.swift */; };
+		52FE32E62A69801C009CDD53 /* UpdatedAnswerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FE32E52A69801C009CDD53 /* UpdatedAnswerView.swift */; };
+		52FE32E82A698885009CDD53 /* AnswerableText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FE32E72A698885009CDD53 /* AnswerableText.swift */; };
+		52FE32E92A698885009CDD53 /* AnswerableText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FE32E72A698885009CDD53 /* AnswerableText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +73,8 @@
 		526DBC5627DECB0C0016B534 /* NewYorkCity.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = NewYorkCity.json; sourceTree = "<group>"; };
 		526DBC5C27DECBC90016B534 /* BundleFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleFile.swift; sourceTree = "<group>"; };
 		526DBC6127DECEF50016B534 /* RelatedTopicsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelatedTopicsView.swift; sourceTree = "<group>"; };
+		52FE32E52A69801C009CDD53 /* UpdatedAnswerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatedAnswerView.swift; sourceTree = "<group>"; };
+		52FE32E72A698885009CDD53 /* AnswerableText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerableText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +189,8 @@
 			children = (
 				526DBC5027DEC8CC0016B534 /* AnswerView.swift */,
 				526DBC6127DECEF50016B534 /* RelatedTopicsView.swift */,
+				52FE32E52A69801C009CDD53 /* UpdatedAnswerView.swift */,
+				52FE32E72A698885009CDD53 /* AnswerableText.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -379,6 +386,8 @@
 				5230F1CA26D1B9CE00AD2EFD /* ContentView.swift in Sources */,
 				526DBC5D27DECBC90016B534 /* BundleFile.swift in Sources */,
 				5230F1C826D1B9CE00AD2EFD /* AnswerMeApp.swift in Sources */,
+				52FE32E82A698885009CDD53 /* AnswerableText.swift in Sources */,
+				52FE32E62A69801C009CDD53 /* UpdatedAnswerView.swift in Sources */,
 				526DBC5127DEC8CC0016B534 /* AnswerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,6 +398,7 @@
 			files = (
 				526DBC6327DECEF50016B534 /* RelatedTopicsView.swift in Sources */,
 				5230F1CB26D1B9CE00AD2EFD /* ContentView.swift in Sources */,
+				52FE32E92A698885009CDD53 /* AnswerableText.swift in Sources */,
 				526DBC5E27DECBC90016B534 /* BundleFile.swift in Sources */,
 				5230F1C926D1B9CE00AD2EFD /* AnswerMeApp.swift in Sources */,
 				526DBC5227DEC8CC0016B534 /* AnswerView.swift in Sources */,
@@ -555,7 +565,7 @@
 				DEVELOPMENT_TEAM = WRJ8J85K4Q;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -577,7 +587,7 @@
 				DEVELOPMENT_TEAM = WRJ8J85K4Q;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
